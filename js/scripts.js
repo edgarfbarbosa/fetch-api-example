@@ -99,7 +99,6 @@ if(!postId) {
 } else {
     getPost(postId);
     
-    
     commentForm.addEventListener('submit', (event) => {
         event.preventDefault();
         
@@ -113,3 +112,5 @@ if(!postId) {
         postComment(comment);
     });
 }
+
+// https://www.youtube.com/watch?v=qIGYM4S8x50
